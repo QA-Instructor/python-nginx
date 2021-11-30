@@ -1,0 +1,10 @@
+# Use compose version 3.8
+# Create two services called 'flask-app' and 'nginx'
+# Set the flask-app to build from the Dockerfile in the flask-app folder
+# Expose port 5000 on both the host and container for the flask-app
+# Set the nginx container to build from the latest Dockerhub image
+# Expose host port 88 and container port 80 using tcp
+# Create a bind mount to make the nginx.conf file available
+# at /etc/nginx/nginx.conf within the container
+
+null
